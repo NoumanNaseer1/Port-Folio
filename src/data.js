@@ -82,47 +82,55 @@ export const tools = [
 ]
 
 export const projects = [
-	{
-		id: 0,
-		name: 'BT-Network',
-		description: 'This is a social media website just like instagram.',
-		image_path: '/images/bt-network.png',
-		deployed_url: 'https://bt-network.herokuapp.com/',
-		github_url: 'https://github.com/Hafizbali315/B-Network-YT',
-		category: ['react', 'mongo', 'express', 'node', 'redux', 'bootstrap'],
-		key_techs: ['React', 'MongoDB', 'Redux', 'Express', 'Node.js', 'Bootstrap'],
-	},
+	
 
 	{
 		id: 1,
 		name: 'Developers Portfolio',
 		image_path: '/images/portfolio.png',
-		deployed_url: 'https://developers-portfolio-react.herokuapp.com/',
-		github_url: 'https://github.com/Hafizbali315/developers-portfolio-react',
-		description: 'This is a developers portfolio website',
+		github_url: 'https://github.com/NoumanNaseer1/Portfolio',
+		description: 'This is a developers portfolio project on github',
 		category: ['react'],
 		key_techs: ['React', 'tailwind', 'Framer Motion'],
 	},
-
 	{
 		id: 2,
-		name: 'Pagination',
-		image_path: '/images/pagination.png',
-		deployed_url: 'https://mern-pagination.herokuapp.com/',
-		github_url: 'https://github.com/Hafizbali315/MERN-Pagination',
-		description: 'This is an advanced pagination website',
-		category: ['react', 'bootstrap', 'mongo', 'node', 'express'],
-		key_techs: ['React', 'Bootstrap', 'MongoDB', 'Node', 'Express'],
+		name: 'Simple E-Commerce Site',
+		image_path: '/images/Ecommerce.png',
+		github_url: 'https://github.com/NoumanNaseer1/Simple-ECommerce',
+		description: 'This is a simple E-commerce which has add to cart,increase quantity and delete item functions ',
+		category: ['react'],
+		key_techs: ['React'],
 	},
 
 	{
 		id: 3,
 		name: 'Todo Application',
 		image_path: '/images/todoapp.png',
-		deployed_url: 'https://todos-app-a0f12.web.app/',
-		github_url: 'https://github.com/Hafizbali315/todos-app',
+		github_url: 'https://github.com/NoumanNaseer1/To-Do-App',
 		description: 'This is a todo App.',
 		category: ['react', 'firebase'],
 		key_techs: ['React', 'Firebase'],
 	},
+	{
+		id: 4,
+		name: 'Pictures search Engine',
+		image_path: '/images/picturesdata.png',
+		
+		github_url: 'https://github.com/NoumanNaseer1/Pictures-Search-Engine',
+		description: 'In this App you can search any type of picutes',
+		category: ['react', 'firebase'],
+		key_techs: ['React', 'Firebase'],
+	},
+	{
+		id: 5,
+		name: 'Youtube search ',
+		image_path: '/images/youtube.png',
+		
+		github_url: 'https://github.com/NoumanNaseer1/Youtube-Videos-Search',
+		description: 'This App is similar to youtube home page',
+		category: ['react', 'firebase'],
+		key_techs: ['React'],
+	},
+
 ]
