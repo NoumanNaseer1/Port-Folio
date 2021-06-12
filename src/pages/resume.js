@@ -14,7 +14,8 @@ const Resume = () => {
 					<div className="">
 						<h5 className="my-2 text-xl font-bold">Msc Computational Engineering</h5>
 
-						<p className="font-semibold">University of Stavanger,Norway,(2019-2021)</p>
+						<p className="font-semibold">University of Stavanger, Norway <br></br>  
+						(2019-2021)</p>
 
 						<p className="my-3">I am currently pursuing Msc in Computational Engineering</p>
 					</div>

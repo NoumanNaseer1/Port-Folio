@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom'
 const NavItem = ({ active, setActive, name, route }) => {
 	return active !== name ? (
 		<Link to={route}>
-			<span className="mx-2 cursor-pointer hover:border-b-4 hover:text-green" onClick={() => setActive(name)}>
+			<span className="mx-2 cursor-pointer hover:border-b-4 hover:text-black" onClick={() => setActive(name)}>
 				{name}
 			</span>
 		</Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
 
 	return (
 		<div className="flex items-center justify-between px-5 py-3 my-3">
-			<span className="text-xl font-bold border-b-4 md:text-2xl border-green">{active}</span>
+			<span className="text-xl font-bold border-b-4 md:text-2xl border-gray ">{active}</span>
 
 			<div className="text-base font-normal md:text-xl">
 				<NavItem active={active} setActive={setActive} name="About" route="/" />

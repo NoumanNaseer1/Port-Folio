@@ -17,7 +17,7 @@ to leverage my technical gain and creative process as a Developer
 			</div>
 			</h4>
 			<div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-black-100" style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}>
-				<h4 className="my-3 text-xl font-semibold tracking-wide text-gray-900">What I am doing</h4>
+				<h4 className="my-3 text-xl font-semibold tracking-wide text-gray-900">Relevant Experience</h4>
 
 				<motion.div className="grid gap-6 my-3 md:grid-cols-2" variants={stagger} animate="animate" initial="initial">
 					{/* children's initial and animate property should be same as the parent during a stagger effect  */}
